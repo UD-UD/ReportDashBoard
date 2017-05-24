@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Report DashBoard</title>
+        <link type="text/css" rel="stylesheet"  href="css/normalize.css"/>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+
+<section id="top-section">Report DashBoard</section>
+<section id="bottom-section">
+    <section id ="left-verticle">
+        <div id="qualitative" class ="landing-zone dimention">
+            <p class="list-heading">Dimension</p>
+            <ul id="dimention-list">
+            </ul>
+        </div>
+        <div id="quantitative" class ="landing-zone measure">
+             <p class="list-heading">Measures</p>
+            <ul id="measure-list">
+            </ul>
+        </div>
+    </section>
+    <section id ="right-verticle">
+        <section class="landing-zone dimention" id= "right-left-verticle">
+            <p>Dimension</p>
+             <ul id="selected-dimention-list"></ul>
+        </section>
+        <section id="right-right-verticle">
+            <div class="landing-zone measure" id="top-right-right-verticle">
+                 <p>Measures</p>
+                 <ul id="selected-measure-list"></ul>
+            </div>
+            <div id="bottom-right-right-verticle">
+            <div id="chart-container">Chart is loading</div>
+            <div id="chart-select">
+                <select id="chart-select-bar" onchange="">
+                    <option value="barChart">Bar Chart</option>
+                    <option value="pieChart">Pie Chart</option>
+                    <option value="columnChart" selected>Column Chart</option>
+                </select>
+            </div>
+            </div>
+
+        </section>
+    </section>
+
+</section>
+
+
+
+
+
+
+<script src="js/fusioncharts.js"></script>
+<script src="js/fusioncharts.charts.js"></script> 
+<script src="js/fusioncharts.powercharts.js"></script> 
+<script src="js/ChartUtils.js"></script>
+<script src="js/index.js"></script>
+<script src="js/DragDrop.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+{
+    "Brand" : [
+        { "Revenue" : "1000" },
+        { "Review" : "1200" },
+        { "Retail" :"1500"},
+        { "Sales" : "8000"},
+        { "Order" :"6000"}
+        ],
+     "Catagory" : [
+        { "Revenue" : "1000" },
+        { "Review" : "1200" },
+        { "Retail" :"1500"},
+        { "Sales" : "8000"},
+        { "Order" :"6000"}
+        ],
+     "BestSellers" : [
+        { "Revenue" : "1000" },
+        { "Review" : "1200" },
+        { "Retail" :"1500"},
+        { "Sales" : "8000"},
+        { "Order" :"6000"}
+        ],
+     "PoorPerformers" : [
+        { "Revenue" : "1000" },
+        { "Review" : "1200" },
+        { "Retail" :"1500"},
+        { "Sales" : "8000"},
+        { "Order" :"6000"}
+        ]
+}
